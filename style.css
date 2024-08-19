@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height:100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f6f6f6;
+}
+
+main{
+    display: flex;
+}
+
+.main__seccion1{
+margin: 0% 0%;
+width: auto;
+}
+
+.main__seccion1__LogoAlura{
+    font-family: "Inter", sans-serif;
+    margin: 40px 5px 30px 40px;
+}
+
+.main__seccion1__entrada{
+    display: flex;
+    flex-direction: column;
+    margin: 120px 183px 100px 80px;
+    margin-left: 240px;
+    width: auto;
+    height: 48px;
+    text-align: center;
+    padding-top: 24px;
+    
+}
+
+.main__seccion1__exclamacion{
+    font-family: "Inter", sans-serif;
+    width: auto;
+    height: 18px;
+    font-size: 0.75rem;
+    margin-left: 240px;
+    margin-bottom: 16px;
+}
+
+.main__tres__botones{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.main__seccion1__botones{
+    display: flex;
+    width: auto;
+    height: 67px;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-left: 240px;
+    gap: 24px;
+}
+
+.main__seccion1__copiar{
+    width: auto;
+    height: 67px;
+    font-size: 0.75rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.main__seccion2{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+
+.main__seccion2__muneco{
+    width: 336px;
+    height: 304px;
+    margin: 40px 40px 0px 40px;
+}
+
+.main__seccion2_mensajes{
+    width: auto;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.container__boton {
+    font-family: "Inter", sans-serif;
+    border-radius: 16px;
+    background: #1875E8;
+    padding: 16px 24px;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: none;
+}
+
+.container__input {
+    font-family: "Inter", sans-serif;
+     border-radius: 16px;
+     background: #1875E8;
+     /* background-color: #FFF; */
+     border: none;
+     /* color: ; */
+     padding: 2rem;
+     font-size: 1.5rem;
+     font-weight: 400;
+ }
+
+ .container__input__conversion {
+    font-family: "Inter", sans-serif;
+     border-radius: 16px;
+     background: #1875E8;
+     border: none;
+     padding: 0.5rem;
+     font-size: 1.5rem;
+     font-weight: 400;
+ }
+
+@media (max-width: 1200px){
+       main{
+           flex-direction: column-reverse;
+       }
+       .main__seccion1__LogoAlura{
+           padding: 10%;
+    }
+
+}

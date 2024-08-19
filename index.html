@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main class="main">
+          <section class="main__seccion1">
+                <div class="main__seccion1__LogoAlura">
+                       <img src="LogoAlura.png" alt="Logo de Aura">
+                 </div>
+                <div class="main__seccion1__entrada">
+                       <label for "textoUsuario"> Ingrese el texto aqui:</label>
+                       <input type="text" id="textoUsuario" class="container__boton" value="Ingrese el texto aqui">
+                </div>
+                <div class="main__seccion1__exclamacion">
+                      <p> <img src="exclamation.png"> Solo letras minusculas y sin acentos</p>
+                </div>
+                <div class="main__tres__botones">
+                  <div class="main__seccion1__botones">
+                        <button onclick="encriptar();" class="container__boton" id="encriptar">Encriptar</button>
+                         <button onclick="desencriptar();" class="container__boton" id="desencriptar">Desencriptar</button>
+                   </div>
+                   <div class="main__seccion1__copiar">
+                        <button onclick="copiar();" class="container__boton" id="copia" disabled>Copiar</button>
+                   </div>
+                </div>
+          </section>
+          <section class="main__seccion2">
+               <img class="main__seccion2__muneco" src="muneco.png" alt="Observando el algoritmo">
+               <div class="main__seccion2_mensajes">
+                    <label for "valorResultado">Resultado de la conversion:</label>
+                    <input type="text" id="valorResultado" class="container__input__conversion" value="Resultado de la conversion">
+               </div>
+
+          </section>    
+          <script src="cifrar.js"></script>
+    </main>
+</body>
+</html>
